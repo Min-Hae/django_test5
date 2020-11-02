@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+안녕<br>
+<form action="/disp2/" method="post">{% csrf_token %}
+입력 : <input type="text" name="msg">
+<input type="submit" value="post로 호출">
+
+</form>
+</body>
+</html>
